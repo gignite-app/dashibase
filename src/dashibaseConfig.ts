@@ -9,7 +9,7 @@ const DASHIBASE_CONFIG:Config = {
   pages: [
     {
       name: "New Signups",
-      page_id: "Waitlist Users",
+      page_id: "waitlist",
       table_id: "early_access",
       mode: "list",
       attributes: [
