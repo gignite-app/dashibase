@@ -8,36 +8,52 @@ const DASHIBASE_CONFIG:Config = {
   supabase_anon_key: "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InhqcnhpZWlqZ2F5bWRsdG1henZ1Iiwicm9sZSI6ImFub24iLCJpYXQiOjE2Nzg2MTYyNjcsImV4cCI6MTk5NDE5MjI2N30.d3mxTGQx0PgDOgbjx_5UwuVDRHYN6Ao7Bzv-MJLkr8A",
   pages: [
     {
-      name: "My Page",
-      page_id: "my_page",
-      table_id: "my_table",
+      name: "New Signups",
+      page_id: "Waitlist Users",
+      table_id: "early_access",
       mode: "list",
       attributes: [
         {
-          id: "value",
-          label: "Value",
+          id: "name",
+          label: "Name",
           required: false,
           readonly: false,
           type: AttributeType.Text,
         },
         {
-          // Enum example - this will generate a dropdown with the provided options
-          id: "foo",
-          label: "Foo",
+          id: "email",
+          label: "Email",
           required: false,
           readonly: false,
-          type: AttributeType.Enum,
-          enumOptions: ['foo', 'bar'], // Specify enum options
+          type: AttributeType.Text,
         },
         {
-          // Join example - for showing joined data from other tables
-          // This will also work with tables joined via join tables
-          // TODO: Add clearer documentation and examples
-          id: "foreign_table(foreign_table_col)",
-          label: "Join Example",
+          id: "phoneNumber",
+          label: "Phone Number",
           required: false,
           readonly: false,
-          type: AttributeType.Join,
+          type: AttributeType.Text,
+        },
+        {
+          id: "country",
+          label: "Country",
+          required: false,
+          readonly: false,
+          type: AttributeType.Text,
+        },
+        {
+          id: "phoneNumber",
+          label: "Phone Number",
+          required: false,
+          readonly: false,
+          type: AttributeType.Text,
+        },
+        {
+          id: "company",
+          label: "Company",
+          required: false,
+          readonly: false,
+          type: AttributeType.Text,
         },
       ] as Attribute[],
       // Trigger example - for adding custom actions to the page
