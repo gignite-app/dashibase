@@ -3,9 +3,9 @@ import { Page, Attribute, AttributeType, Config, Trigger } from './utils/config'
 // Change this to build your own dashboard - see `utils/config.ts` for documentation
 
 const DASHIBASE_CONFIG:Config = {
-  name: "My Dashboard",
-  supabase_url: "https://YOUR_SUPABASE_URL.supabase.co",
-  supabase_anon_key: "YOUR_SUPABASE_ANON_KEY",
+  name: "Gignite Dashboard",
+  supabase_url: "https://xjrxieijgaymdltmazvu.supabase.co",
+  supabase_anon_key: "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InhqcnhpZWlqZ2F5bWRsdG1henZ1Iiwicm9sZSI6ImFub24iLCJpYXQiOjE2Nzg2MTYyNjcsImV4cCI6MTk5NDE5MjI2N30.d3mxTGQx0PgDOgbjx_5UwuVDRHYN6Ao7Bzv-MJLkr8A",
   pages: [
     {
       name: "My Page",
