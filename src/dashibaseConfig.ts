@@ -14,6 +14,13 @@ const DASHIBASE_CONFIG:Config = {
       mode: "list",
       attributes: [
         {
+          id: "created_at",
+          label: "Date Signed Up",
+          required: false,
+          readonly: false,
+          type: AttributeType.Text,
+        },
+        {
           id: "name",
           label: "Name",
           required: false,
